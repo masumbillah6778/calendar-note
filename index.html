@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A web music player html template made by codewithsadee">
+  <meta name="title" content="Music Player">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+  <link rel="stylesheet" href="https://masumbillah6778.github.io/fonts/bangla/bangla-custom-font.css">
+  <link rel="stylesheet" href="https://masumbillah6778.github.io/fonts/bangla/bangla-custom-font.css">
+  <title> Calendar </title>
+  <link rel="icon" type="image/x-icon" href="https://github.com/masumbillah6778/images/raw/main/music-logo1.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="calendar">
+  <div class="calendar-options">
+    <select name="calendar-year" id="calendar-year">
+      <option selected> 2025 </option>
+      <option> 2026 </option>
+      <option> 2027 </option>
+      <option> 2028 </ooption>
+      <option> 2029 </option>
+      <option> 2030 </option>
+    </select>
+
+    <select name="calendar-month" id="calendar-month">
+      <option selected> Jan </option>
+      <option value="feb.html"> Feb </option>
+      <option value="assets/html/years/2025/feb.html"> Mar </option>
+      <option value="https://www.blogger.com/"> Apr </option>
+      <option> <a href="#"> May </a> </option>
+      <option> <a href="#"> Jun </a> </option>
+      <option> <a href="#"> Jul </a> </option>
+      <option> <a href="#"> Aug </a> </option>
+      <option> <a href="#"> Sep </a> </option>
+      <option> <a href="#"> Oct </a> </option>
+      <option> <a href="#"> Nov </a> </option>
+      <option> <a href="#"> Dec </a> </option>
+    </select>
+  </div>
+
+  <div class="calendar-body">
+    <ul class="calendar-days">
+      <li class="day"> Mon </li>
+      <li class="day"> Tue </li>
+      <li class="day"> Wed </li>
+      <li class="day"> Thu </li>
+      <li class="day"> Fri </li>
+      <li class="day hollyday"> Sat </li>
+      <li class="day hollyday"> Sun </li>
+    </ul>
+  
+    <ul class="calendar-date">
+      <li class="blank"> ★ </li>
+      <li class="blank"> ★ </li>
+      <li> 1 </li>
+      <li> 2 </li>
+      <li> 3 </li>
+      <li> 4 </li>
+      <li class="note red"> <a href="#popup1"> 5  <span> 2 </span> </a>
+        <div id="popup1" class="popup-container popup-style-1">
+          <div class="popup-content">
+            <a href="#" class="close">&times;</a>
+            <h3> ৩ - ৮ - ২০২৫ </h3>
+            <p> Masum </p>
+          </div>
+        </div> </li>
+      <li> 6 </li>
+      <li> 7 </li>
+      <li> 8 </li>
+      <li class="note red"> <a href="#popup1"> 5  <span> 2 </span> </a>
+        <div id="popup1" class="popup-container popup-style-1">
+          <div class="popup-content">
+            <a href="#" class="close">&times;</a>
+            <h3> ৩ - ৮ - ২০২৫ </h3>
+            <p> Masum </p>
+          </div>
+        </div> </li>
+      <li> 10 </li>
+      <li> 11 </li>
+      <li> 12 </li>
+      <li> 13 </li>
+      <li> 14 </li>
+      <li> 15 </li>
+      <li> 16 </li>
+      <li class="active"> 17 </li>
+      <li> 18 </li>
+      <li> 19 </li>
+      <li> 20 </li>
+      <li> 21 </li>
+      <li> 22 </li>
+      <li> 23 </li>
+      <li> 24 </li>
+      <li> 25 </li>
+      <li> 26 </li>
+      <li> 27 </li>
+      <li> 28 </li>
+      <li> 29 </li>
+      <li> 30 </li>
+      <li> 31 </li>
+      <li class="blank"> ★ </li>
+      <li class="blank"> ★ </li>
+    </ul>
+  </div>
+</div>
+ 
+
+
+
+
+
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+<script>
+var select = document.querySelector('select');
+var select = document.querySelectorId('calendar-month');
+select.addEventListener('change', function() {
+  var url = this.value;
+  window.open(url, '_blank');
+});
+</script>
+</body>
+</html>
+

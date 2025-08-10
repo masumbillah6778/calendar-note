@@ -24,27 +24,27 @@
 <div class="calendar">
   <div class="calendar-options">
     <select name="calendar-year" id="calendar-year">
-      <option selected> 2025 </option>
-      <option> 2026 </option>
-      <option> 2027 </option>
-      <option> 2028 </ooption>
-      <option> 2029 </option>
-      <option> 2030 </option>
+      <option value="https://www.google.com"> Google </option>
+      <option value="https://www.blogger.com"> Blogger </option>
+      <option value="https://codepen.io"> Codepen </option>
+      <option value="https://github.com"> Github </option>
+      <option value="https://codepen.io"> Codepen </option>
+      <option value="https://github.com"> Github </option>
     </select>
 
     <select name="calendar-month" id="calendar-month">
-      <option selected> Jan </option>
-      <option value="feb.html"> Feb </option>
-      <option value="assets/html/years/2025/feb.html"> Mar </option>
-      <option value="https://www.blogger.com/"> Apr </option>
-      <option> <a href="#"> May </a> </option>
-      <option> <a href="#"> Jun </a> </option>
-      <option> <a href="#"> Jul </a> </option>
-      <option> <a href="#"> Aug </a> </option>
-      <option> <a href="#"> Sep </a> </option>
-      <option> <a href="#"> Oct </a> </option>
-      <option> <a href="#"> Nov </a> </option>
-      <option> <a href="#"> Dec </a> </option>
+      <option value="https://www.google.com"> Jan </option>
+      <option value="https://www.blogger.com"> Feb </option>
+      <option value="https://codepen.io"> Mar </option>
+      <option value="https://github.com"> Apr </option>
+      <option value="https://codepen.io"> May </option>
+      <option value="https://github.com"> Jun </option>
+      <option value="https://www.google.com"> Jul </option>
+      <option value="https://www.blogger.com"> Aug </option>
+      <option value="https://codepen.io"> Sep </option>
+      <option value="https://github.com"> Oct </option>
+      <option value="https://codepen.io"> Nov </option>
+      <option value="https://github.com"> Dec </option>
     </select>
   </div>
 
@@ -121,7 +121,6 @@
 <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 <script>
 var select = document.querySelector('select');
-var select = document.querySelectorId('calendar-month');
 select.addEventListener('change', function() {
   var url = this.value;
   window.open(url, '_blank');
